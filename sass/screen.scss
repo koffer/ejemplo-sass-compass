@@ -1,0 +1,133 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+// @import 'color';
+
+
+// Compass code
+
+@import "compass/typography/vertical_rhythm" ;
+
+/* Fonts size and line height defaults */
+
+// $base-font-size: 16px; /* Sets the browser default size. */
+// $base-line-height: 24px; /* Baseline grid. */
+// @include establish-baseline; /* "This is where the magic happens" —Everyone on MTV Cribs. */
+// $rhythm-unit: “rem”;
+
+// mixins
+
+// @mixin border-radius($radius) {
+//  -webkit-border-radius: $radius;
+//     -moz-border-radius: $radius;
+//      -ms-border-radius: $radius;
+ //         border-radius: $radius;
+// }
+
+
+
+// variables
+
+$rojo: #f3291a;
+$espacio: 15px;
+
+body {
+	
+	background: b9e5f1;
+    padding:$espacio ;
+	
+}
+
+// Las H
+
+h1 {
+    
+   font-size: 65px;
+   color:$rojo + 6;
+    
+    //color:darken( $rojo, 10% );
+   
+   // @include adjust-font-size-to(32px); 
+    
+   //background:blue;
+    
+   // compass y sass
+    
+   //@include border-radius(10px);
+   //@include box-shadow(black 0px 0px 10px);
+   //    
+    
+ //  @include adjust-font-size-to(36px);  
+ //  @include rhythm(1, 0, 0, 1, 96px);
+
+}
+
+
+h2 {
+    
+    font-size: 35px;
+    color:$rojo ;
+    padding:$espacio;
+    //padding:$espacio + 15px;
+}
+
+
+h3 {
+    
+    font-size: 25px;
+    color:$rojo;
+   //color:lighten( rojo, 10%);
+}
+
+// paragraph 
+
+p  {
+    
+    font-size: 19px;
+    color:#454444;
+
+}
+
+// menu nesting
+
+nav  {
+	
+	background:#5f98bd;
+    width:90%;
+    height:25px;
+    padding:5px;
+    display:block;
+    
+    li  {
+	
+	
+    float:left;
+    
+   }
+    
+    a:link, a:visited   {
+	
+	
+    color:white;
+    padding:5px;
+ 
+    
+   }
+    
+    a:hover  {
+	
+	
+    color:yellow;
+
+    }
+	
+}
+
+
+
+
